@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+venv/
+.venv/
+env/
+.env
+
+# Data — don't commit large files
+data/raw/
+data/processed/
+*.csv
+*.npy
+*.h5
+*.pkl
+
+# Model weights
+models/*.pb
+models/saved_model/
+
+# Training artifacts
+logs/
+*.png
+training_history*
+confusion_matrix*
+sample_predictions*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

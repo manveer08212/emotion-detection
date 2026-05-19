@@ -97,6 +97,14 @@ Press `q` to quit the webcam feed.
 | FPS (CPU) | ~20 |
 | FPS (GPU) | ~60 |
 
+## Training Results
+| Metric | Value |
+|--------|-------|
+| Best Epoch | 33/500 (early stopping at 43) |
+| Train Accuracy | 80.7% |
+| Val Accuracy | **66.5%** |
+| Early Stopping | ✅ |
+| GPU | Tesla T4 | 
 ---
 
 ## ⚙️ Configuration

@@ -24,7 +24,7 @@ emotion-detection/
 ├── notebooks/
 │   └── exploration.ipynb     # EDA & training experiments
 ├── data/
-│   ├── raw/                  # Place fer2013.csv here
+│   ├── raw/                  # fer2013.csv here
 │   └── processed/            # Auto-generated processed arrays
 ├── tests/
 │   └── test_model.py         # Unit tests
@@ -57,7 +57,7 @@ Custom CNN trained on FER-2013:
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/emotion-detection.git
+git clone https://github.com/manveer08212/emotion-detection.git
 cd emotion-detection
 pip install -r requirements.txt
 ```
